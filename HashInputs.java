@@ -2,7 +2,7 @@ package project2;
 
 /**
  *
- * @author mehdi akbarian 2016-1-14
+ * @author mehdi akbarian 2016-1-14 DS Project 2
  */
 public class HashInputs {
 
@@ -16,14 +16,10 @@ public class HashInputs {
     }
 
     public int getKey() {
-
         return key;
-
     }
 
     public int getValue() {
-
         return value;
-
     }
 }
