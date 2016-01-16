@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package project2;
 
 /**
  *
- * @author mehdi akbarian 2016-1-14
+ * @author mehdi akbarian 2016-1-14 DS Project 2
  */
 public class MyHashTable {
 
@@ -23,7 +18,7 @@ public class MyHashTable {
      * get value of key
      *
      * @param key for searching in table
-     * @author mehdi akbarina
+     * @author mehdi akbarian
      * @return if key find in table returned value else return -1
      */
     public int get(int key) {
@@ -39,7 +34,7 @@ public class MyHashTable {
      *
      * @param key for inserting in table
      * @param value for inserting in table
-     * @author mehdi akbarina
+     * @author mehdi akbarian
      */
     public void put(int key, int value) {
         table[hashFunction(key,false)] = new HashInputs(key, value);
@@ -49,7 +44,7 @@ public class MyHashTable {
      * generate index for hash table
      *
      * @param key for generate virtual position
-     * @author mehdi akbarina
+     * @author mehdi akbarian
      */
     private int hashFunction(int key,boolean isGet) {
         int hash = (key % TABLE_SIZE);
@@ -63,7 +58,7 @@ public class MyHashTable {
      * remove data to hash table
      *
      * @param key for inserting in table
-     * @author mehdi akbarina
+     * @author mehdi akbarian
      * @return true if successfully delete data 
      */
     public boolean remove(int key){
