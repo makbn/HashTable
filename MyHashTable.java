@@ -7,7 +7,7 @@ package project2;
 
 /**
  *
- * @author mehdi akbarina 2016-1-14
+ * @author mehdi akbarian 2016-1-14
  */
 public class MyHashTable {
 
